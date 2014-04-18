@@ -40,6 +40,7 @@
 		831F09111900B2F0006E15C9 /* SeeProfileButton(unfold).png in Resources */ = {isa = PBXBuildFile; fileRef = 831F090E1900B2F0006E15C9 /* SeeProfileButton(unfold).png */; };
 		831F09141900B359006E15C9 /* GSSplashView.m in Sources */ = {isa = PBXBuildFile; fileRef = 831F09131900B359006E15C9 /* GSSplashView.m */; };
 		831F09171900B3A5006E15C9 /* GSReaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 831F09161900B3A5006E15C9 /* GSReaderView.m */; };
+		831F091A1900B45D006E15C9 /* GSHomePageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 831F09191900B45D006E15C9 /* GSHomePageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +93,8 @@
 		831F09131900B359006E15C9 /* GSSplashView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSSplashView.m; sourceTree = "<group>"; };
 		831F09151900B3A5006E15C9 /* GSReaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSReaderView.h; sourceTree = "<group>"; };
 		831F09161900B3A5006E15C9 /* GSReaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSReaderView.m; sourceTree = "<group>"; };
+		831F09181900B45D006E15C9 /* GSHomePageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHomePageView.h; sourceTree = "<group>"; };
+		831F09191900B45D006E15C9 /* GSHomePageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHomePageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +201,8 @@
 				831F09131900B359006E15C9 /* GSSplashView.m */,
 				831F09151900B3A5006E15C9 /* GSReaderView.h */,
 				831F09161900B3A5006E15C9 /* GSReaderView.m */,
+				831F09181900B45D006E15C9 /* GSHomePageView.h */,
+				831F09191900B45D006E15C9 /* GSHomePageView.m */,
 			);
 			name = ViewGroup;
 			sourceTree = "<group>";
@@ -205,6 +210,7 @@
 		831F08EA1900A563006E15C9 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				831F091B1900B541006E15C9 /* HomePageView */,
 				831F08ED1900A606006E15C9 /* ReadingView */,
 				831F08EB1900A5DA006E15C9 /* SplashView */,
 			);
@@ -241,6 +247,13 @@
 				831F08FA1900B10B006E15C9 /* TextSize.png */,
 			);
 			name = ReadingView;
+			sourceTree = "<group>";
+		};
+		831F091B1900B541006E15C9 /* HomePageView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = HomePageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -361,6 +374,7 @@
 			files = (
 				831F08C51900A432006E15C9 /* GSAppDelegate.m in Sources */,
 				831F09171900B3A5006E15C9 /* GSReaderView.m in Sources */,
+				831F091A1900B45D006E15C9 /* GSHomePageView.m in Sources */,
 				831F09141900B359006E15C9 /* GSSplashView.m in Sources */,
 				831F08C11900A432006E15C9 /* main.m in Sources */,
 			);
