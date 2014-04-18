@@ -210,7 +210,6 @@
 		831F08EA1900A563006E15C9 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				831F091B1900B541006E15C9 /* HomePageView */,
 				831F08ED1900A606006E15C9 /* ReadingView */,
 				831F08EB1900A5DA006E15C9 /* SplashView */,
 			);
@@ -247,13 +246,6 @@
 				831F08FA1900B10B006E15C9 /* TextSize.png */,
 			);
 			name = ReadingView;
-			sourceTree = "<group>";
-		};
-		831F091B1900B541006E15C9 /* HomePageView */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = HomePageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -583,6 +575,7 @@
 				831F08E51900A432006E15C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		831F08E61900A432006E15C9 /* Build configuration list for PBXNativeTarget "GaussiTests" */ = {
 			isa = XCConfigurationList;
@@ -591,6 +584,7 @@
 				831F08E81900A432006E15C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
