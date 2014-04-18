@@ -14,7 +14,6 @@
 		831F08C11900A432006E15C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 831F08C01900A432006E15C9 /* main.m */; };
 		831F08C51900A432006E15C9 /* GSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 831F08C41900A432006E15C9 /* GSAppDelegate.m */; };
 		831F08C81900A432006E15C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 831F08C61900A432006E15C9 /* Main.storyboard */; };
-		831F08CB1900A432006E15C9 /* GSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 831F08CA1900A432006E15C9 /* GSViewController.m */; };
 		831F08CD1900A432006E15C9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 831F08CC1900A432006E15C9 /* Images.xcassets */; };
 		831F08D41900A432006E15C9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 831F08D31900A432006E15C9 /* XCTest.framework */; };
 		831F08D51900A432006E15C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 831F08B41900A432006E15C9 /* Foundation.framework */; };
@@ -45,8 +44,6 @@
 		831F08C31900A432006E15C9 /* GSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSAppDelegate.h; sourceTree = "<group>"; };
 		831F08C41900A432006E15C9 /* GSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSAppDelegate.m; sourceTree = "<group>"; };
 		831F08C71900A432006E15C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		831F08C91900A432006E15C9 /* GSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSViewController.h; sourceTree = "<group>"; };
-		831F08CA1900A432006E15C9 /* GSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSViewController.m; sourceTree = "<group>"; };
 		831F08CC1900A432006E15C9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		831F08D21900A432006E15C9 /* GaussiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaussiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		831F08D31900A432006E15C9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -112,11 +109,11 @@
 		831F08BA1900A432006E15C9 /* Gaussi */ = {
 			isa = PBXGroup;
 			children = (
+				831F08EA1900A563006E15C9 /* Resource */,
+				831F08E91900A555006E15C9 /* ViewGroup */,
 				831F08C31900A432006E15C9 /* GSAppDelegate.h */,
 				831F08C41900A432006E15C9 /* GSAppDelegate.m */,
 				831F08C61900A432006E15C9 /* Main.storyboard */,
-				831F08C91900A432006E15C9 /* GSViewController.h */,
-				831F08CA1900A432006E15C9 /* GSViewController.m */,
 				831F08CC1900A432006E15C9 /* Images.xcassets */,
 				831F08BB1900A432006E15C9 /* Supporting Files */,
 			);
@@ -150,6 +147,20 @@
 				831F08DC1900A432006E15C9 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		831F08E91900A555006E15C9 /* ViewGroup */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewGroup;
+			sourceTree = "<group>";
+		};
+		831F08EA1900A563006E15C9 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,7 +262,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				831F08C51900A432006E15C9 /* GSAppDelegate.m in Sources */,
-				831F08CB1900A432006E15C9 /* GSViewController.m in Sources */,
 				831F08C11900A432006E15C9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
