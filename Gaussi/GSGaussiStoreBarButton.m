@@ -37,7 +37,7 @@
         UILabel *name = [[UILabel alloc] initWithFrame:CGRectMake(0, 60, 144, 31)];
         name.text = labelName;
         name.textAlignment = NSTextAlignmentCenter;
-        [name setFont:[UIFont fontWithName:@"Helvetica Neue" size:12]];
+        [name setFont:[UIFont fontWithName:@"Helvetica Neue" size:14]];
         name.textColor = [UIColor whiteColor];
         [self addSubview:name];
     }

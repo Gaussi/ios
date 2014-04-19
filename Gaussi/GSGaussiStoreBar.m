@@ -8,6 +8,7 @@
 
 #import "GSGaussiStoreBar.h"
 #import "GSGaussiStoreBarButton.h"
+#import "GSGaussiStoreSubBar.h"
 
 @implementation GSGaussiStoreBar
 
@@ -118,7 +119,6 @@
 
 
 - (void)tapPiece:(UITapGestureRecognizer *)gestureRecognizer{
-    //NSLog(@"tapped: %d", gestureRecognizer.view.tag);
     [self exclusiveSelect:gestureRecognizer.view.tag];
 }
 /*

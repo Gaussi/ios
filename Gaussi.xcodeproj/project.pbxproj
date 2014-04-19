@@ -77,6 +77,8 @@
 		838715DB1902CCD5007C2313 /* GSGaussiStoreBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 838715DA1902CCD5007C2313 /* GSGaussiStoreBar.m */; };
 		838715E11902CF49007C2313 /* GSTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 838715E01902CF49007C2313 /* GSTestViewController.m */; };
 		838715E41902D36B007C2313 /* GSGaussiStoreBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 838715E31902D36B007C2313 /* GSGaussiStoreBarButton.m */; };
+		838715E8190307BE007C2313 /* GSGaussiStoreSubBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 838715E7190307BE007C2313 /* GSGaussiStoreSubBar.m */; };
+		838715EB19030BDD007C2313 /* GSGaussiStoreSubBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 838715EA19030BDD007C2313 /* GSGaussiStoreSubBarButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -170,6 +172,10 @@
 		838715E01902CF49007C2313 /* GSTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSTestViewController.m; sourceTree = "<group>"; };
 		838715E21902D36B007C2313 /* GSGaussiStoreBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSGaussiStoreBarButton.h; sourceTree = "<group>"; };
 		838715E31902D36B007C2313 /* GSGaussiStoreBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSGaussiStoreBarButton.m; sourceTree = "<group>"; };
+		838715E6190307BE007C2313 /* GSGaussiStoreSubBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSGaussiStoreSubBar.h; sourceTree = "<group>"; };
+		838715E7190307BE007C2313 /* GSGaussiStoreSubBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSGaussiStoreSubBar.m; sourceTree = "<group>"; };
+		838715E919030BDD007C2313 /* GSGaussiStoreSubBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSGaussiStoreSubBarButton.h; sourceTree = "<group>"; };
+		838715EA19030BDD007C2313 /* GSGaussiStoreSubBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSGaussiStoreSubBarButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -394,12 +400,24 @@
 		838715971902CA37007C2313 /* Widget */ = {
 			isa = PBXGroup;
 			children = (
+				838715E519030799007C2313 /* GaussiStore */,
+			);
+			name = Widget;
+			sourceTree = "<group>";
+		};
+		838715E519030799007C2313 /* GaussiStore */ = {
+			isa = PBXGroup;
+			children = (
 				838715D91902CCD5007C2313 /* GSGaussiStoreBar.h */,
 				838715DA1902CCD5007C2313 /* GSGaussiStoreBar.m */,
 				838715E21902D36B007C2313 /* GSGaussiStoreBarButton.h */,
 				838715E31902D36B007C2313 /* GSGaussiStoreBarButton.m */,
+				838715E6190307BE007C2313 /* GSGaussiStoreSubBar.h */,
+				838715E7190307BE007C2313 /* GSGaussiStoreSubBar.m */,
+				838715E919030BDD007C2313 /* GSGaussiStoreSubBarButton.h */,
+				838715EA19030BDD007C2313 /* GSGaussiStoreSubBarButton.m */,
 			);
-			name = Widget;
+			name = GaussiStore;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -555,10 +573,12 @@
 				838715DB1902CCD5007C2313 /* GSGaussiStoreBar.m in Sources */,
 				831F09171900B3A5006E15C9 /* GSReaderView.m in Sources */,
 				831F091A1900B45D006E15C9 /* GSHomePageView.m in Sources */,
+				838715EB19030BDD007C2313 /* GSGaussiStoreSubBarButton.m in Sources */,
 				831F09141900B359006E15C9 /* GSSplashView.m in Sources */,
 				838715E11902CF49007C2313 /* GSTestViewController.m in Sources */,
 				831F08C11900A432006E15C9 /* main.m in Sources */,
 				838715E41902D36B007C2313 /* GSGaussiStoreBarButton.m in Sources */,
+				838715E8190307BE007C2313 /* GSGaussiStoreSubBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
