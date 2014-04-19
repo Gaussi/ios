@@ -74,6 +74,9 @@
 		831F09831900BA15006E15C9 /* KnowledgeBaseIcon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 831F097E1900BA15006E15C9 /* KnowledgeBaseIcon2.png */; };
 		831F09841900BA15006E15C9 /* PurchaseButtion.png in Resources */ = {isa = PBXBuildFile; fileRef = 831F097F1900BA15006E15C9 /* PurchaseButtion.png */; };
 		831F09851900BA15006E15C9 /* ViewHistoryIcon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 831F09801900BA15006E15C9 /* ViewHistoryIcon2.png */; };
+		838715DB1902CCD5007C2313 /* GSGaussiStoreBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 838715DA1902CCD5007C2313 /* GSGaussiStoreBar.m */; };
+		838715E11902CF49007C2313 /* GSTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 838715E01902CF49007C2313 /* GSTestViewController.m */; };
+		838715E41902D36B007C2313 /* GSGaussiStoreBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 838715E31902D36B007C2313 /* GSGaussiStoreBarButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -161,6 +164,12 @@
 		831F097E1900BA15006E15C9 /* KnowledgeBaseIcon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KnowledgeBaseIcon2.png; sourceTree = "<group>"; };
 		831F097F1900BA15006E15C9 /* PurchaseButtion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PurchaseButtion.png; sourceTree = "<group>"; };
 		831F09801900BA15006E15C9 /* ViewHistoryIcon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ViewHistoryIcon2.png; sourceTree = "<group>"; };
+		838715D91902CCD5007C2313 /* GSGaussiStoreBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSGaussiStoreBar.h; sourceTree = "<group>"; };
+		838715DA1902CCD5007C2313 /* GSGaussiStoreBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSGaussiStoreBar.m; sourceTree = "<group>"; };
+		838715DF1902CF49007C2313 /* GSTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSTestViewController.h; sourceTree = "<group>"; };
+		838715E01902CF49007C2313 /* GSTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSTestViewController.m; sourceTree = "<group>"; };
+		838715E21902D36B007C2313 /* GSGaussiStoreBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSGaussiStoreBarButton.h; sourceTree = "<group>"; };
+		838715E31902D36B007C2313 /* GSGaussiStoreBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSGaussiStoreBarButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,6 +229,7 @@
 		831F08BA1900A432006E15C9 /* Gaussi */ = {
 			isa = PBXGroup;
 			children = (
+				838715971902CA37007C2313 /* Widget */,
 				831F08EA1900A563006E15C9 /* Resource */,
 				831F08E91900A555006E15C9 /* ViewGroup */,
 				831F08C31900A432006E15C9 /* GSAppDelegate.h */,
@@ -269,6 +279,8 @@
 				831F09161900B3A5006E15C9 /* GSReaderView.m */,
 				831F09181900B45D006E15C9 /* GSHomePageView.h */,
 				831F09191900B45D006E15C9 /* GSHomePageView.m */,
+				838715DF1902CF49007C2313 /* GSTestViewController.h */,
+				838715E01902CF49007C2313 /* GSTestViewController.m */,
 			);
 			name = ViewGroup;
 			sourceTree = "<group>";
@@ -377,6 +389,17 @@
 				831F09801900BA15006E15C9 /* ViewHistoryIcon2.png */,
 			);
 			name = TransitionView;
+			sourceTree = "<group>";
+		};
+		838715971902CA37007C2313 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				838715D91902CCD5007C2313 /* GSGaussiStoreBar.h */,
+				838715DA1902CCD5007C2313 /* GSGaussiStoreBar.m */,
+				838715E21902D36B007C2313 /* GSGaussiStoreBarButton.h */,
+				838715E31902D36B007C2313 /* GSGaussiStoreBarButton.m */,
+			);
+			name = Widget;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -529,10 +552,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				831F08C51900A432006E15C9 /* GSAppDelegate.m in Sources */,
+				838715DB1902CCD5007C2313 /* GSGaussiStoreBar.m in Sources */,
 				831F09171900B3A5006E15C9 /* GSReaderView.m in Sources */,
 				831F091A1900B45D006E15C9 /* GSHomePageView.m in Sources */,
 				831F09141900B359006E15C9 /* GSSplashView.m in Sources */,
+				838715E11902CF49007C2313 /* GSTestViewController.m in Sources */,
 				831F08C11900A432006E15C9 /* main.m in Sources */,
+				838715E41902D36B007C2313 /* GSGaussiStoreBarButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
