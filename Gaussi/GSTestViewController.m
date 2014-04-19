@@ -9,6 +9,7 @@
 #import "GSTestViewController.h"
 #import "GSGaussiStoreBar.h"
 #import "GSGaussiStoreSubBar.h"
+#import "GSGaussiStoreLeftBar.h"
 
 @interface GSTestViewController ()
 
@@ -37,8 +38,11 @@
     
     // subbar
     GSGaussiStoreSubBar *subBar = [[GSGaussiStoreSubBar alloc] initWithFrame:CGRectMake(0, 0, 0, 0)];
-    
     [self.view addSubview:subBar];
+    
+    // left bar
+    GSGaussiStoreLeftBar *leftBar = [[GSGaussiStoreLeftBar alloc] initWithFrame:CGRectMake(0, 0, 0, 0)];
+    [self.view addSubview:leftBar];
 }
 
 - (void)didReceiveMemoryWarning

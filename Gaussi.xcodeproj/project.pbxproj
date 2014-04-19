@@ -79,6 +79,8 @@
 		838715E41902D36B007C2313 /* GSGaussiStoreBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 838715E31902D36B007C2313 /* GSGaussiStoreBarButton.m */; };
 		838715E8190307BE007C2313 /* GSGaussiStoreSubBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 838715E7190307BE007C2313 /* GSGaussiStoreSubBar.m */; };
 		838715EB19030BDD007C2313 /* GSGaussiStoreSubBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 838715EA19030BDD007C2313 /* GSGaussiStoreSubBarButton.m */; };
+		838715EE19031CBB007C2313 /* GSGaussiStoreLeftBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 838715ED19031CBB007C2313 /* GSGaussiStoreLeftBar.m */; };
+		838715F1190326F4007C2313 /* GSLeftBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 838715F0190326F4007C2313 /* GSLeftBarButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -176,6 +178,10 @@
 		838715E7190307BE007C2313 /* GSGaussiStoreSubBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSGaussiStoreSubBar.m; sourceTree = "<group>"; };
 		838715E919030BDD007C2313 /* GSGaussiStoreSubBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSGaussiStoreSubBarButton.h; sourceTree = "<group>"; };
 		838715EA19030BDD007C2313 /* GSGaussiStoreSubBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSGaussiStoreSubBarButton.m; sourceTree = "<group>"; };
+		838715EC19031CBB007C2313 /* GSGaussiStoreLeftBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSGaussiStoreLeftBar.h; sourceTree = "<group>"; };
+		838715ED19031CBB007C2313 /* GSGaussiStoreLeftBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSGaussiStoreLeftBar.m; sourceTree = "<group>"; };
+		838715EF190326F4007C2313 /* GSLeftBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSLeftBarButton.h; sourceTree = "<group>"; };
+		838715F0190326F4007C2313 /* GSLeftBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSLeftBarButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -416,6 +422,10 @@
 				838715E7190307BE007C2313 /* GSGaussiStoreSubBar.m */,
 				838715E919030BDD007C2313 /* GSGaussiStoreSubBarButton.h */,
 				838715EA19030BDD007C2313 /* GSGaussiStoreSubBarButton.m */,
+				838715EC19031CBB007C2313 /* GSGaussiStoreLeftBar.h */,
+				838715ED19031CBB007C2313 /* GSGaussiStoreLeftBar.m */,
+				838715EF190326F4007C2313 /* GSLeftBarButton.h */,
+				838715F0190326F4007C2313 /* GSLeftBarButton.m */,
 			);
 			name = GaussiStore;
 			sourceTree = "<group>";
@@ -569,7 +579,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				838715EE19031CBB007C2313 /* GSGaussiStoreLeftBar.m in Sources */,
 				831F08C51900A432006E15C9 /* GSAppDelegate.m in Sources */,
+				838715F1190326F4007C2313 /* GSLeftBarButton.m in Sources */,
 				838715DB1902CCD5007C2313 /* GSGaussiStoreBar.m in Sources */,
 				831F09171900B3A5006E15C9 /* GSReaderView.m in Sources */,
 				831F091A1900B45D006E15C9 /* GSHomePageView.m in Sources */,

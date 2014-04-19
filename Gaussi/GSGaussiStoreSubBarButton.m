@@ -26,6 +26,7 @@
         [buttonName setFont:[UIFont fontWithName:@"Helvetica Neue" size:14]];
         buttonName.textColor = [UIColor whiteColor];
         [buttonName setTextAlignment:NSTextAlignmentCenter];
+        buttonName.tag = 12;
         [self addSubview:buttonName];
     }
     return self;
@@ -34,9 +35,11 @@
 - (void)refresh{
     if (self.selected) {
         [self viewWithTag:11].hidden = NO;
+        [self viewWithTag:12].alpha = 1;
     }
     else{
         [self viewWithTag:11].hidden = YES;
+        [self viewWithTag:12].alpha = 0.4;
     }
 }
 
