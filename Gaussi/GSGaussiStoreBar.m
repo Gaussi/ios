@@ -45,7 +45,7 @@
         button2.tag = 12;
         UITapGestureRecognizer *tapRecognizer2 = [[UITapGestureRecognizer alloc]
                                                   initWithTarget:self action:@selector(tapPiece:)];
-        [tapRecognizer2 setNumberOfTapsRequired:2];
+        [tapRecognizer2 setNumberOfTapsRequired:1];
         [tapRecognizer2 setDelegate:self];
         [button2 addGestureRecognizer:tapRecognizer2];
         [self addSubview:button2];
@@ -55,7 +55,7 @@
         button3.tag = 13;
         UITapGestureRecognizer *tapRecognizer3 = [[UITapGestureRecognizer alloc]
                                                   initWithTarget:self action:@selector(tapPiece:)];
-        [tapRecognizer3 setNumberOfTapsRequired:3];
+        [tapRecognizer3 setNumberOfTapsRequired:1];
         [tapRecognizer3 setDelegate:self];
         [button3 addGestureRecognizer:tapRecognizer3];
         [self addSubview:button3];
@@ -65,12 +65,10 @@
         button4.tag = 14;
         UITapGestureRecognizer *tapRecognizer4 = [[UITapGestureRecognizer alloc]
                                                   initWithTarget:self action:@selector(tapPiece:)];
-        [tapRecognizer4 setNumberOfTapsRequired:4];
+        [tapRecognizer4 setNumberOfTapsRequired:1];
         [tapRecognizer4 setDelegate:self];
         [button4 addGestureRecognizer:tapRecognizer4];
         [self addSubview:button4];
-        
-        
         
         // Select ini
         [self exclusiveSelect:1];
@@ -87,19 +85,19 @@
     GSGaussiStoreBarButton* button4 = (GSGaussiStoreBarButton*)[self viewWithTag:14];
     
     switch (selectedButton) {
-        case 1:
+        case 11:
             button1.selected = YES;
             button2.selected = NO;
             button3.selected = NO;
             button4.selected = NO;
             break;
-        case 2:
+        case 12:
             button1.selected = NO;
             button2.selected = YES;
             button3.selected = NO;
             button4.selected = NO;
             break;
-        case 3:
+        case 13:
             button1.selected = NO;
             button2.selected = NO;
             button3.selected = YES;
@@ -120,7 +118,8 @@
 
 
 - (void)tapPiece:(UITapGestureRecognizer *)gestureRecognizer{
-    NSLog(@"tapped: %d", gestureRecognizer.view.tag);
+    //NSLog(@"tapped: %d", gestureRecognizer.view.tag);
+    [self exclusiveSelect:gestureRecognizer.view.tag];
 }
 /*
 // Only override drawRect: if you perform custom drawing.

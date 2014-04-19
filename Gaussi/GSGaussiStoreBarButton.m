@@ -46,13 +46,12 @@
 
 - (void) refresh{
     if (self.selected) {
-        //[self viewWithTag:2].hidden = NO;
-        //[self viewWithTag:1].alpha = 0.4;
+        [self viewWithTag:2].hidden = NO;
+        [self viewWithTag:1].hidden = NO;
     }
     else{
         [self viewWithTag:2].hidden = YES;
-        [self viewWithTag:1].alpha = 0;
-        //[self viewWithTag:1].hidden = YES;
+        [self viewWithTag:1].hidden = YES;
     }
 }
 
