@@ -81,6 +81,8 @@
 		838715EB19030BDD007C2313 /* GSGaussiStoreSubBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 838715EA19030BDD007C2313 /* GSGaussiStoreSubBarButton.m */; };
 		838715EE19031CBB007C2313 /* GSGaussiStoreLeftBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 838715ED19031CBB007C2313 /* GSGaussiStoreLeftBar.m */; };
 		838715F1190326F4007C2313 /* GSLeftBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 838715F0190326F4007C2313 /* GSLeftBarButton.m */; };
+		83CF356E190C0B6300FAE1C4 /* GSGaussiStoreCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 83CF356D190C0B6300FAE1C4 /* GSGaussiStoreCell.m */; };
+		83CF3570190C0C2C00FAE1C4 /* sampleComputerScience.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CF356F190C0C2C00FAE1C4 /* sampleComputerScience.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -182,6 +184,9 @@
 		838715ED19031CBB007C2313 /* GSGaussiStoreLeftBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSGaussiStoreLeftBar.m; sourceTree = "<group>"; };
 		838715EF190326F4007C2313 /* GSLeftBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSLeftBarButton.h; sourceTree = "<group>"; };
 		838715F0190326F4007C2313 /* GSLeftBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSLeftBarButton.m; sourceTree = "<group>"; };
+		83CF356C190C0B6300FAE1C4 /* GSGaussiStoreCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSGaussiStoreCell.h; sourceTree = "<group>"; };
+		83CF356D190C0B6300FAE1C4 /* GSGaussiStoreCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSGaussiStoreCell.m; sourceTree = "<group>"; };
+		83CF356F190C0C2C00FAE1C4 /* sampleComputerScience.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sampleComputerScience.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -379,6 +384,7 @@
 		831F096A1900B93C006E15C9 /* GaussiStoreView */ = {
 			isa = PBXGroup;
 			children = (
+				83CF356F190C0C2C00FAE1C4 /* sampleComputerScience.png */,
 				831F09791900B961006E15C9 /* InfoBoxBackgroundImage.png */,
 				831F096B1900B955006E15C9 /* Face.png */,
 				831F096C1900B955006E15C9 /* Letter.png */,
@@ -426,6 +432,8 @@
 				838715ED19031CBB007C2313 /* GSGaussiStoreLeftBar.m */,
 				838715EF190326F4007C2313 /* GSLeftBarButton.h */,
 				838715F0190326F4007C2313 /* GSLeftBarButton.m */,
+				83CF356C190C0B6300FAE1C4 /* GSGaussiStoreCell.h */,
+				83CF356D190C0B6300FAE1C4 /* GSGaussiStoreCell.m */,
 			);
 			name = GaussiStore;
 			sourceTree = "<group>";
@@ -508,6 +516,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				831F093C1900B8A9006E15C9 /* HPQuestionMark.png in Resources */,
+				83CF3570190C0C2C00FAE1C4 /* sampleComputerScience.png in Resources */,
 				831F095F1900B910006E15C9 /* NextButton.png in Resources */,
 				831F09771900B955006E15C9 /* RatingStarWhite.png in Resources */,
 				831F09391900B8A9006E15C9 /* HPMainPageLogo.png in Resources */,
@@ -588,6 +597,7 @@
 				838715EB19030BDD007C2313 /* GSGaussiStoreSubBarButton.m in Sources */,
 				831F09141900B359006E15C9 /* GSSplashView.m in Sources */,
 				838715E11902CF49007C2313 /* GSTestViewController.m in Sources */,
+				83CF356E190C0B6300FAE1C4 /* GSGaussiStoreCell.m in Sources */,
 				831F08C11900A432006E15C9 /* main.m in Sources */,
 				838715E41902D36B007C2313 /* GSGaussiStoreBarButton.m in Sources */,
 				838715E8190307BE007C2313 /* GSGaussiStoreSubBar.m in Sources */,

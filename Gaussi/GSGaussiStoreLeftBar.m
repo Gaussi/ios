@@ -50,7 +50,6 @@
 
 - (void)tapPiece:(UITapGestureRecognizer *)gestureRecognizer{
     [self exclusiveSelect:gestureRecognizer.view.tag];
-    NSLog(@"%d",gestureRecognizer.view.tag);
 }
 
 /*

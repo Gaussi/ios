@@ -10,6 +10,7 @@
 #import "GSGaussiStoreBar.h"
 #import "GSGaussiStoreSubBar.h"
 #import "GSGaussiStoreLeftBar.h"
+#import "GSGaussiStoreCell.h"
 
 @interface GSTestViewController ()
 
@@ -43,12 +44,42 @@
     // left bar
     GSGaussiStoreLeftBar *leftBar = [[GSGaussiStoreLeftBar alloc] initWithFrame:CGRectMake(0, 0, 0, 0)];
     [self.view addSubview:leftBar];
+    
+    // Table View
+    UITableView* tb = [[UITableView alloc] initWithFrame:CGRectMake(220, 198, 779, 561)];
+    tb.backgroundColor =[UIColor clearColor];
+    tb.separatorColor = [UIColor colorWithWhite:1 alpha:0.2];
+    tb.scrollEnabled = YES;
+    tb.rowHeight = 234;
+    tb.showsVerticalScrollIndicator = NO;
+    tb.dataSource = self;
+    tb.delegate = self;
+    tb.userInteractionEnabled = YES;
+    [self.view addSubview:tb];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    // Return the number of sections.
+    return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return 5;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    GSGaussiStoreCell *cell = (GSGaussiStoreCell*)[tableView dequeueReusableCellWithIdentifier:@"storeCell"];
+    if (cell == nil)
+        cell = [[GSGaussiStoreCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"storeCell"];
+    [cell dataInit];
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    return cell;
 }
 
 /*
