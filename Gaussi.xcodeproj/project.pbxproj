@@ -74,6 +74,16 @@
 		831F09831900BA15006E15C9 /* KnowledgeBaseIcon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 831F097E1900BA15006E15C9 /* KnowledgeBaseIcon2.png */; };
 		831F09841900BA15006E15C9 /* PurchaseButtion.png in Resources */ = {isa = PBXBuildFile; fileRef = 831F097F1900BA15006E15C9 /* PurchaseButtion.png */; };
 		831F09851900BA15006E15C9 /* ViewHistoryIcon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 831F09801900BA15006E15C9 /* ViewHistoryIcon2.png */; };
+		835E7E7D1911E3B200B3FC2B /* GSOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 835E7E7C1911E3B200B3FC2B /* GSOptionsViewController.m */; };
+		835E7E7F19120B6B00B3FC2B /* SampleCover.png in Resources */ = {isa = PBXBuildFile; fileRef = 835E7E7E19120B6B00B3FC2B /* SampleCover.png */; };
+		835E7E8119120C3E00B3FC2B /* continue.png in Resources */ = {isa = PBXBuildFile; fileRef = 835E7E8019120C3E00B3FC2B /* continue.png */; };
+		8381CF64190F43640025BEE2 /* GSHomePageTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8381CF63190F43640025BEE2 /* GSHomePageTest.m */; };
+		8381CF68190F43A70025BEE2 /* GSScrollWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8381CF67190F43A70025BEE2 /* GSScrollWindow.m */; };
+		8381CF6B190F43BB0025BEE2 /* GSScrollSingleWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8381CF6A190F43BB0025BEE2 /* GSScrollSingleWindow.m */; };
+		8381CF70190F445D0025BEE2 /* HPbg1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8381CF6C190F445D0025BEE2 /* HPbg1.png */; };
+		8381CF71190F445D0025BEE2 /* HPbg2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8381CF6D190F445D0025BEE2 /* HPbg2.png */; };
+		8381CF72190F445D0025BEE2 /* HPbg3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8381CF6E190F445D0025BEE2 /* HPbg3.png */; };
+		8381CF73190F445D0025BEE2 /* HPcover1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8381CF6F190F445D0025BEE2 /* HPcover1.png */; };
 		838715DB1902CCD5007C2313 /* GSGaussiStoreBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 838715DA1902CCD5007C2313 /* GSGaussiStoreBar.m */; };
 		838715E11902CF49007C2313 /* GSTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 838715E01902CF49007C2313 /* GSTestViewController.m */; };
 		838715E41902D36B007C2313 /* GSGaussiStoreBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 838715E31902D36B007C2313 /* GSGaussiStoreBarButton.m */; };
@@ -170,6 +180,20 @@
 		831F097E1900BA15006E15C9 /* KnowledgeBaseIcon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KnowledgeBaseIcon2.png; sourceTree = "<group>"; };
 		831F097F1900BA15006E15C9 /* PurchaseButtion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PurchaseButtion.png; sourceTree = "<group>"; };
 		831F09801900BA15006E15C9 /* ViewHistoryIcon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ViewHistoryIcon2.png; sourceTree = "<group>"; };
+		835E7E7B1911E3B200B3FC2B /* GSOptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSOptionsViewController.h; sourceTree = "<group>"; };
+		835E7E7C1911E3B200B3FC2B /* GSOptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSOptionsViewController.m; sourceTree = "<group>"; };
+		835E7E7E19120B6B00B3FC2B /* SampleCover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SampleCover.png; sourceTree = "<group>"; };
+		835E7E8019120C3E00B3FC2B /* continue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = continue.png; sourceTree = "<group>"; };
+		8381CF62190F43640025BEE2 /* GSHomePageTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHomePageTest.h; sourceTree = "<group>"; };
+		8381CF63190F43640025BEE2 /* GSHomePageTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHomePageTest.m; sourceTree = "<group>"; };
+		8381CF66190F43A70025BEE2 /* GSScrollWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSScrollWindow.h; sourceTree = "<group>"; };
+		8381CF67190F43A70025BEE2 /* GSScrollWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSScrollWindow.m; sourceTree = "<group>"; };
+		8381CF69190F43BB0025BEE2 /* GSScrollSingleWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSScrollSingleWindow.h; sourceTree = "<group>"; };
+		8381CF6A190F43BB0025BEE2 /* GSScrollSingleWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSScrollSingleWindow.m; sourceTree = "<group>"; };
+		8381CF6C190F445D0025BEE2 /* HPbg1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HPbg1.png; sourceTree = "<group>"; };
+		8381CF6D190F445D0025BEE2 /* HPbg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HPbg2.png; sourceTree = "<group>"; };
+		8381CF6E190F445D0025BEE2 /* HPbg3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HPbg3.png; sourceTree = "<group>"; };
+		8381CF6F190F445D0025BEE2 /* HPcover1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HPcover1.png; sourceTree = "<group>"; };
 		838715D91902CCD5007C2313 /* GSGaussiStoreBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSGaussiStoreBar.h; sourceTree = "<group>"; };
 		838715DA1902CCD5007C2313 /* GSGaussiStoreBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSGaussiStoreBar.m; sourceTree = "<group>"; };
 		838715DF1902CF49007C2313 /* GSTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSTestViewController.h; sourceTree = "<group>"; };
@@ -298,6 +322,10 @@
 				831F09191900B45D006E15C9 /* GSHomePageView.m */,
 				838715DF1902CF49007C2313 /* GSTestViewController.h */,
 				838715E01902CF49007C2313 /* GSTestViewController.m */,
+				8381CF62190F43640025BEE2 /* GSHomePageTest.h */,
+				8381CF63190F43640025BEE2 /* GSHomePageTest.m */,
+				835E7E7B1911E3B200B3FC2B /* GSOptionsViewController.h */,
+				835E7E7C1911E3B200B3FC2B /* GSOptionsViewController.m */,
 			);
 			name = ViewGroup;
 			sourceTree = "<group>";
@@ -349,6 +377,10 @@
 		831F091C1900B626006E15C9 /* HomePageView */ = {
 			isa = PBXGroup;
 			children = (
+				8381CF6C190F445D0025BEE2 /* HPbg1.png */,
+				8381CF6D190F445D0025BEE2 /* HPbg2.png */,
+				8381CF6E190F445D0025BEE2 /* HPbg3.png */,
+				8381CF6F190F445D0025BEE2 /* HPcover1.png */,
 				831F09251900B8A9006E15C9 /* HPBackGroundImage.jpg */,
 				831F09261900B8A9006E15C9 /* HPBackGroundImageBlured.png */,
 				831F09271900B8A9006E15C9 /* HPDidYouKnowFrame.png */,
@@ -369,6 +401,8 @@
 		831F093F1900B8B8006E15C9 /* MoreOptionView */ = {
 			isa = PBXGroup;
 			children = (
+				835E7E8019120C3E00B3FC2B /* continue.png */,
+				835E7E7E19120B6B00B3FC2B /* SampleCover.png */,
 				831F09401900B8DE006E15C9 /* CreateEncyclopediaIcon.png */,
 				831F09411900B8DE006E15C9 /* HelpIcon.png */,
 				831F09421900B8DE006E15C9 /* KnowledgeBaseIcon.png */,
@@ -409,9 +443,21 @@
 			name = TransitionView;
 			sourceTree = "<group>";
 		};
+		8381CF65190F43780025BEE2 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				8381CF66190F43A70025BEE2 /* GSScrollWindow.h */,
+				8381CF67190F43A70025BEE2 /* GSScrollWindow.m */,
+				8381CF69190F43BB0025BEE2 /* GSScrollSingleWindow.h */,
+				8381CF6A190F43BB0025BEE2 /* GSScrollSingleWindow.m */,
+			);
+			name = HomePage;
+			sourceTree = "<group>";
+		};
 		838715971902CA37007C2313 /* Widget */ = {
 			isa = PBXGroup;
 			children = (
+				8381CF65190F43780025BEE2 /* HomePage */,
 				838715E519030799007C2313 /* GaussiStore */,
 			);
 			name = Widget;
@@ -518,6 +564,7 @@
 				831F093C1900B8A9006E15C9 /* HPQuestionMark.png in Resources */,
 				83CF3570190C0C2C00FAE1C4 /* sampleComputerScience.png in Resources */,
 				831F095F1900B910006E15C9 /* NextButton.png in Resources */,
+				8381CF71190F445D0025BEE2 /* HPbg2.png in Resources */,
 				831F09771900B955006E15C9 /* RatingStarWhite.png in Resources */,
 				831F09391900B8A9006E15C9 /* HPMainPageLogo.png in Resources */,
 				831F093D1900B8A9006E15C9 /* HPSearchArea.png in Resources */,
@@ -525,6 +572,7 @@
 				831F097A1900B961006E15C9 /* InfoBoxBackgroundImage.png in Resources */,
 				831F09371900B8A9006E15C9 /* HPLearnMoreButton.png in Resources */,
 				831F08CD1900A432006E15C9 /* Images.xcassets in Resources */,
+				835E7E7F19120B6B00B3FC2B /* SampleCover.png in Resources */,
 				831F09241900B809006E15C9 /* IndividualizedKnowledgeBase.png in Resources */,
 				831F09551900B8FB006E15C9 /* SeeProfileButton(unfold).png in Resources */,
 				831F09481900B8DE006E15C9 /* CreateEncyclopediaIcon.png in Resources */,
@@ -537,6 +585,7 @@
 				831F094B1900B8DE006E15C9 /* MenuDroppedShadow.png in Resources */,
 				831F09491900B8DE006E15C9 /* HelpIcon.png in Resources */,
 				831F09211900B809006E15C9 /* BackGroundImage.jpg in Resources */,
+				8381CF70190F445D0025BEE2 /* HPbg1.png in Resources */,
 				831F09681900B925006E15C9 /* VideoPlayButton.png in Resources */,
 				831F094C1900B8DE006E15C9 /* MoreOptionsMenuArea.png in Resources */,
 				831F08BF1900A432006E15C9 /* InfoPlist.strings in Resources */,
@@ -546,16 +595,19 @@
 				831F094E1900B8DE006E15C9 /* SettingsIcon.png in Resources */,
 				831F09661900B925006E15C9 /* PlayButton.png in Resources */,
 				831F09731900B955006E15C9 /* Letter.png in Resources */,
+				835E7E8119120C3E00B3FC2B /* continue.png in Resources */,
 				831F09721900B955006E15C9 /* Face.png in Resources */,
 				831F09851900BA15006E15C9 /* ViewHistoryIcon2.png in Resources */,
 				831F094D1900B8DE006E15C9 /* ProfileIcon.png in Resources */,
 				831F095E1900B910006E15C9 /* GoBackButton.png in Resources */,
 				831F09741900B955006E15C9 /* MenuButtonBackground.png in Resources */,
+				8381CF72190F445D0025BEE2 /* HPbg3.png in Resources */,
 				831F09331900B8A9006E15C9 /* HPBackGroundImageBlured.png in Resources */,
 				831F09781900B955006E15C9 /* Twitter.png in Resources */,
 				831F09811900BA15006E15C9 /* CreatingEncyclopediaIcon02.png in Resources */,
 				831F09231900B809006E15C9 /* FocusOnKnowledgeItself.png in Resources */,
 				831F095C1900B910006E15C9 /* Bookmark.png in Resources */,
+				8381CF73190F445D0025BEE2 /* HPcover1.png in Resources */,
 				831F094F1900B8DE006E15C9 /* ViewHistoryIcon.png in Resources */,
 				831F09831900BA15006E15C9 /* KnowledgeBaseIcon2.png in Resources */,
 				831F09361900B8A9006E15C9 /* HPIndividualizedKnowledgeBase.png in Resources */,
@@ -591,6 +643,9 @@
 				838715EE19031CBB007C2313 /* GSGaussiStoreLeftBar.m in Sources */,
 				831F08C51900A432006E15C9 /* GSAppDelegate.m in Sources */,
 				838715F1190326F4007C2313 /* GSLeftBarButton.m in Sources */,
+				8381CF64190F43640025BEE2 /* GSHomePageTest.m in Sources */,
+				8381CF6B190F43BB0025BEE2 /* GSScrollSingleWindow.m in Sources */,
+				835E7E7D1911E3B200B3FC2B /* GSOptionsViewController.m in Sources */,
 				838715DB1902CCD5007C2313 /* GSGaussiStoreBar.m in Sources */,
 				831F09171900B3A5006E15C9 /* GSReaderView.m in Sources */,
 				831F091A1900B45D006E15C9 /* GSHomePageView.m in Sources */,
@@ -601,6 +656,7 @@
 				831F08C11900A432006E15C9 /* main.m in Sources */,
 				838715E41902D36B007C2313 /* GSGaussiStoreBarButton.m in Sources */,
 				838715E8190307BE007C2313 /* GSGaussiStoreSubBar.m in Sources */,
+				8381CF68190F43A70025BEE2 /* GSScrollWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

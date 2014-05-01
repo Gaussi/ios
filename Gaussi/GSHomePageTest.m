@@ -1,18 +1,19 @@
 //
-//  GSSplashView.m
+//  GSHomePageTest.m
 //  Gaussi
 //
-//  Created by Matt Sun on 4/17/14.
+//  Created by Matt Sun on 4/28/14.
 //  Copyright (c) 2014 Gaussi. All rights reserved.
 //
 
-#import "GSSplashView.h"
+#import "GSHomePageTest.h"
+#import "GSScrollWindow.h"
 
-@interface GSSplashView ()
+@interface GSHomePageTest ()
 
 @end
 
-@implementation GSSplashView
+@implementation GSHomePageTest
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -26,20 +27,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [UIApplication sharedApplication].statusBarHidden = YES;
-    
-    
+    // Do any additional setup after loading the view.
     UIImageView* bg = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 1024, 768)];
-    bg.image = [UIImage imageNamed:@"BackGroundImage.jpg"];
+    bg.image = [UIImage imageNamed:@"HPBackGroundImage.jpg"];
     [self.view addSubview:bg];
-    
-    UIImageView* bigLogo = [[UIImageView alloc] initWithFrame:CGRectMake(278, 248, 470, 138)];
-    bigLogo.image = [UIImage imageNamed:@"BigLogo.png"];
-    [self.view addSubview:bigLogo];
-    
-    UIImageView* focus = [[UIImageView alloc] initWithFrame:CGRectMake(208, 506, 608, 23)];
-    focus.image = [UIImage imageNamed:@"FocusOnKnowledgeItself.png"];
-    [self.view addSubview:focus];
+    GSScrollWindow* ads = [[GSScrollWindow alloc] initWithFrame:CGRectMake(0, 11, 1024, 282)];
+    [self.view addSubview:ads];
 }
 
 - (void)didReceiveMemoryWarning
