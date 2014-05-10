@@ -97,6 +97,12 @@
 		838715EB19030BDD007C2313 /* GSGaussiStoreSubBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 838715EA19030BDD007C2313 /* GSGaussiStoreSubBarButton.m */; };
 		838715EE19031CBB007C2313 /* GSGaussiStoreLeftBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 838715ED19031CBB007C2313 /* GSGaussiStoreLeftBar.m */; };
 		838715F1190326F4007C2313 /* GSLeftBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 838715F0190326F4007C2313 /* GSLeftBarButton.m */; };
+		838DBFF8191E8E0500E4BC5B /* GSSourceManagement.m in Sources */ = {isa = PBXBuildFile; fileRef = 838DBFF7191E8E0500E4BC5B /* GSSourceManagement.m */; };
+		838DBFFB191E989300E4BC5B /* GSEncyclopediaHead.m in Sources */ = {isa = PBXBuildFile; fileRef = 838DBFFA191E989300E4BC5B /* GSEncyclopediaHead.m */; };
+		8390BBD4191EB62900815DD6 /* GSSearchEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 8390BBD3191EB62900815DD6 /* GSSearchEngine.m */; };
+		8390BBD6191EB6D200815DD6 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8390BBD5191EB6D200815DD6 /* libsqlite3.0.dylib */; };
+		8390BBD8191EB6EA00815DD6 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8390BBD7191EB6EA00815DD6 /* libsqlite3.dylib */; };
+		8390BBDB191ED04A00815DD6 /* GSLogicTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8390BBDA191ED04A00815DD6 /* GSLogicTestViewController.m */; };
 		83CF356E190C0B6300FAE1C4 /* GSGaussiStoreCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 83CF356D190C0B6300FAE1C4 /* GSGaussiStoreCell.m */; };
 		83CF3570190C0C2C00FAE1C4 /* sampleComputerScience.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CF356F190C0C2C00FAE1C4 /* sampleComputerScience.png */; };
 /* End PBXBuildFile section */
@@ -224,6 +230,16 @@
 		838715ED19031CBB007C2313 /* GSGaussiStoreLeftBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSGaussiStoreLeftBar.m; sourceTree = "<group>"; };
 		838715EF190326F4007C2313 /* GSLeftBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSLeftBarButton.h; sourceTree = "<group>"; };
 		838715F0190326F4007C2313 /* GSLeftBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSLeftBarButton.m; sourceTree = "<group>"; };
+		838DBFF6191E8E0500E4BC5B /* GSSourceManagement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSSourceManagement.h; sourceTree = "<group>"; };
+		838DBFF7191E8E0500E4BC5B /* GSSourceManagement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSSourceManagement.m; sourceTree = "<group>"; };
+		838DBFF9191E989300E4BC5B /* GSEncyclopediaHead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSEncyclopediaHead.h; sourceTree = "<group>"; };
+		838DBFFA191E989300E4BC5B /* GSEncyclopediaHead.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSEncyclopediaHead.m; sourceTree = "<group>"; };
+		8390BBD2191EB62900815DD6 /* GSSearchEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSSearchEngine.h; sourceTree = "<group>"; };
+		8390BBD3191EB62900815DD6 /* GSSearchEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSSearchEngine.m; sourceTree = "<group>"; };
+		8390BBD5191EB6D200815DD6 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		8390BBD7191EB6EA00815DD6 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		8390BBD9191ED04A00815DD6 /* GSLogicTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSLogicTestViewController.h; sourceTree = "<group>"; };
+		8390BBDA191ED04A00815DD6 /* GSLogicTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSLogicTestViewController.m; sourceTree = "<group>"; };
 		83CF356C190C0B6300FAE1C4 /* GSGaussiStoreCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSGaussiStoreCell.h; sourceTree = "<group>"; };
 		83CF356D190C0B6300FAE1C4 /* GSGaussiStoreCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSGaussiStoreCell.m; sourceTree = "<group>"; };
 		83CF356F190C0C2C00FAE1C4 /* sampleComputerScience.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sampleComputerScience.png; sourceTree = "<group>"; };
@@ -234,6 +250,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8390BBD8191EB6EA00815DD6 /* libsqlite3.dylib in Frameworks */,
+				8390BBD6191EB6D200815DD6 /* libsqlite3.0.dylib in Frameworks */,
 				831F08B71900A432006E15C9 /* CoreGraphics.framework in Frameworks */,
 				831F08B91900A432006E15C9 /* UIKit.framework in Frameworks */,
 				831F08B51900A432006E15C9 /* Foundation.framework in Frameworks */,
@@ -286,6 +304,8 @@
 		831F08B31900A432006E15C9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8390BBD7191EB6EA00815DD6 /* libsqlite3.dylib */,
+				8390BBD5191EB6D200815DD6 /* libsqlite3.0.dylib */,
 				831F08B41900A432006E15C9 /* Foundation.framework */,
 				831F08B61900A432006E15C9 /* CoreGraphics.framework */,
 				831F08B81900A432006E15C9 /* UIKit.framework */,
@@ -297,6 +317,7 @@
 		831F08BA1900A432006E15C9 /* Gaussi */ = {
 			isa = PBXGroup;
 			children = (
+				838DBFF5191E8DED00E4BC5B /* BusinessLogicalLayer */,
 				838715971902CA37007C2313 /* Widget */,
 				831F08EA1900A563006E15C9 /* Resource */,
 				831F08E91900A555006E15C9 /* ViewGroup */,
@@ -357,6 +378,8 @@
 				83365CA11912B2DD007A31DF /* GSInfoBoxView.m */,
 				831B91F4191595D200FCBA10 /* GSTransitionViewController.h */,
 				831B91F5191595D200FCBA10 /* GSTransitionViewController.m */,
+				8390BBD9191ED04A00815DD6 /* GSLogicTestViewController.h */,
+				8390BBDA191ED04A00815DD6 /* GSLogicTestViewController.m */,
 			);
 			name = ViewGroup;
 			sourceTree = "<group>";
@@ -526,6 +549,19 @@
 			name = TitleBar;
 			sourceTree = "<group>";
 		};
+		838DBFF5191E8DED00E4BC5B /* BusinessLogicalLayer */ = {
+			isa = PBXGroup;
+			children = (
+				838DBFF6191E8E0500E4BC5B /* GSSourceManagement.h */,
+				838DBFF7191E8E0500E4BC5B /* GSSourceManagement.m */,
+				838DBFF9191E989300E4BC5B /* GSEncyclopediaHead.h */,
+				838DBFFA191E989300E4BC5B /* GSEncyclopediaHead.m */,
+				8390BBD2191EB62900815DD6 /* GSSearchEngine.h */,
+				8390BBD3191EB62900815DD6 /* GSSearchEngine.m */,
+			);
+			name = BusinessLogicalLayer;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -685,6 +721,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				838715EE19031CBB007C2313 /* GSGaussiStoreLeftBar.m in Sources */,
+				8390BBD4191EB62900815DD6 /* GSSearchEngine.m in Sources */,
+				8390BBDB191ED04A00815DD6 /* GSLogicTestViewController.m in Sources */,
 				831F08C51900A432006E15C9 /* GSAppDelegate.m in Sources */,
 				838715F1190326F4007C2313 /* GSLeftBarButton.m in Sources */,
 				8381CF64190F43640025BEE2 /* GSHomePageTest.m in Sources */,
@@ -693,6 +731,7 @@
 				838715DB1902CCD5007C2313 /* GSGaussiStoreBar.m in Sources */,
 				831F09171900B3A5006E15C9 /* GSReaderView.m in Sources */,
 				831F091A1900B45D006E15C9 /* GSHomePageView.m in Sources */,
+				838DBFF8191E8E0500E4BC5B /* GSSourceManagement.m in Sources */,
 				838715EB19030BDD007C2313 /* GSGaussiStoreSubBarButton.m in Sources */,
 				831F09141900B359006E15C9 /* GSSplashView.m in Sources */,
 				838715E11902CF49007C2313 /* GSTestViewController.m in Sources */,
@@ -703,6 +742,7 @@
 				838715E41902D36B007C2313 /* GSGaussiStoreBarButton.m in Sources */,
 				838715E8190307BE007C2313 /* GSGaussiStoreSubBar.m in Sources */,
 				8381CF68190F43A70025BEE2 /* GSScrollWindow.m in Sources */,
+				838DBFFB191E989300E4BC5B /* GSEncyclopediaHead.m in Sources */,
 				831B91F6191595D200FCBA10 /* GSTransitionViewController.m in Sources */,
 				831B91F01915871100FCBA10 /* GSScrollIntro.m in Sources */,
 			);
