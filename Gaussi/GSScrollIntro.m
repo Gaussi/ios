@@ -1,15 +1,16 @@
 //
-//  GSScrollWindow.m
+//  GSScrollIntro.m
 //  Gaussi
 //
-//  Created by Matt Sun on 4/28/14.
+//  Created by Matt Sun on 5/3/14.
 //  Copyright (c) 2014 Gaussi. All rights reserved.
 //
 
-#import "GSScrollWindow.h"
+#import "GSScrollIntro.h"
 #import "GSScrollSingleWindow.h"
+#import "GSScrollSingleIntro.h"
 
-@interface GSScrollWindow(){
+@interface GSScrollIntro(){
     NSInteger _numOfscrollsTemp;
 }
 
@@ -18,14 +19,14 @@
 
 @end
 
-@implementation GSScrollWindow
+@implementation GSScrollIntro
 
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
     if (self) {
         self._moveLeft = YES;
-        [self setFrame:CGRectMake(0, 460, 1024, 308)];
+        [self setFrame:CGRectMake(0, frame.origin.y, 1024, 605)];
         _numOfscrollsTemp = 7;
         [self elementsInit];
     }
@@ -39,12 +40,12 @@
     [self addSubview:seperateLine];
     
     // blur bg
-    UIView *bg = [[UIView alloc] initWithFrame:CGRectMake(0, 2, 1024, 306)];
-    bg.backgroundColor = [UIColor colorWithWhite:1 alpha:0.2];
-    [self addSubview:bg];
+//    UIView *bg = [[UIView alloc] initWithFrame:CGRectMake(0, 2, 1024, 306)];
+//    bg.backgroundColor = [UIColor colorWithWhite:1 alpha:0.2];
+//    [self addSubview:bg];
     
     // scroll view
-    UIScrollView* scroll = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 9, 1024, 290)];
+    UIScrollView* scroll = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 9, 1024, 576)];
     scroll.contentSize = CGSizeMake(600*_numOfscrollsTemp+26, 288);
     for (int i=0; i<_numOfscrollsTemp; i++) {
         GSScrollSingleWindow* wd = [[GSScrollSingleWindow alloc] initWithFrame:CGRectMake(26+600*i, 0, 100, 100)];
@@ -53,6 +54,14 @@
         wd.intro = [NSString stringWithFormat:@"%d The giant panda does not hibernate but it will shelter in caves or hollow trees in very cold weather",i];
         [wd layoutInit];
         [scroll addSubview:wd];
+        
+        GSScrollSingleIntro* introSingle = [[GSScrollSingleIntro alloc] initWithFrame:CGRectMake(26+600*i, 289, 0, 0)];
+        introSingle.title = @"All We Know About Pandas";
+        introSingle.content = @"The panda (Ailuropoda melanoleuca, lit. \"black and white cat-foot\"), also known as the giant panda to distinguish it from the unrelated red panda, is a bear native to south central China. It is easily recognized by the large, distinctive black patches around its eyes, over the ears, and across its round body. Though it belongs to the order Carnivora, the panda's diet is over 99% bamboo. Pandas in the wild will occasionally eat other grasses, wild tubers, or even meat in the form of birds, rodents or carrion. In captivity, they may receive honey, eggs, fish, yams, shrub leaves, oranges, or bananas along with specially prepared food.";
+        introSingle.price = 0.99;
+        [introSingle layoutInit];
+        [scroll addSubview:introSingle];
+        
     }
     scroll.showsHorizontalScrollIndicator = NO;
     scroll.contentOffset = CGPointMake(401, 0);

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		831B91F01915871100FCBA10 /* GSScrollIntro.m in Sources */ = {isa = PBXBuildFile; fileRef = 831B91EF1915871100FCBA10 /* GSScrollIntro.m */; };
+		831B91F31915873000FCBA10 /* GSScrollSingleIntro.m in Sources */ = {isa = PBXBuildFile; fileRef = 831B91F21915873000FCBA10 /* GSScrollSingleIntro.m */; };
+		831B91F6191595D200FCBA10 /* GSTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 831B91F5191595D200FCBA10 /* GSTransitionViewController.m */; };
 		831F08B51900A432006E15C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 831F08B41900A432006E15C9 /* Foundation.framework */; };
 		831F08B71900A432006E15C9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 831F08B61900A432006E15C9 /* CoreGraphics.framework */; };
 		831F08B91900A432006E15C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 831F08B81900A432006E15C9 /* UIKit.framework */; };
@@ -109,6 +112,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		831B91EE1915871100FCBA10 /* GSScrollIntro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSScrollIntro.h; sourceTree = "<group>"; };
+		831B91EF1915871100FCBA10 /* GSScrollIntro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSScrollIntro.m; sourceTree = "<group>"; };
+		831B91F11915873000FCBA10 /* GSScrollSingleIntro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSScrollSingleIntro.h; sourceTree = "<group>"; };
+		831B91F21915873000FCBA10 /* GSScrollSingleIntro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSScrollSingleIntro.m; sourceTree = "<group>"; };
+		831B91F4191595D200FCBA10 /* GSTransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSTransitionViewController.h; sourceTree = "<group>"; };
+		831B91F5191595D200FCBA10 /* GSTransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSTransitionViewController.m; sourceTree = "<group>"; };
 		831F08B11900A432006E15C9 /* Gaussi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gaussi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		831F08B41900A432006E15C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		831F08B61900A432006E15C9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -244,6 +253,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		831B91ED191586DF00FCBA10 /* TransitionPage */ = {
+			isa = PBXGroup;
+			children = (
+				831B91EE1915871100FCBA10 /* GSScrollIntro.h */,
+				831B91EF1915871100FCBA10 /* GSScrollIntro.m */,
+				831B91F11915873000FCBA10 /* GSScrollSingleIntro.h */,
+				831B91F21915873000FCBA10 /* GSScrollSingleIntro.m */,
+			);
+			name = TransitionPage;
+			sourceTree = "<group>";
+		};
 		831F08A81900A432006E15C9 = {
 			isa = PBXGroup;
 			children = (
@@ -335,6 +355,8 @@
 				835E7E7C1911E3B200B3FC2B /* GSOptionsViewController.m */,
 				83365CA01912B2DD007A31DF /* GSInfoBoxView.h */,
 				83365CA11912B2DD007A31DF /* GSInfoBoxView.m */,
+				831B91F4191595D200FCBA10 /* GSTransitionViewController.h */,
+				831B91F5191595D200FCBA10 /* GSTransitionViewController.m */,
 			);
 			name = ViewGroup;
 			sourceTree = "<group>";
@@ -468,6 +490,8 @@
 		838715971902CA37007C2313 /* Widget */ = {
 			isa = PBXGroup;
 			children = (
+				838DBFF4191E86F500E4BC5B /* TitleBar */,
+				831B91ED191586DF00FCBA10 /* TransitionPage */,
 				8381CF65190F43780025BEE2 /* HomePage */,
 				838715E519030799007C2313 /* GaussiStore */,
 			);
@@ -493,6 +517,13 @@
 				83CF356D190C0B6300FAE1C4 /* GSGaussiStoreCell.m */,
 			);
 			name = GaussiStore;
+			sourceTree = "<group>";
+		};
+		838DBFF4191E86F500E4BC5B /* TitleBar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = TitleBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -668,9 +699,12 @@
 				83CF356E190C0B6300FAE1C4 /* GSGaussiStoreCell.m in Sources */,
 				831F08C11900A432006E15C9 /* main.m in Sources */,
 				83365CA21912B2DD007A31DF /* GSInfoBoxView.m in Sources */,
+				831B91F31915873000FCBA10 /* GSScrollSingleIntro.m in Sources */,
 				838715E41902D36B007C2313 /* GSGaussiStoreBarButton.m in Sources */,
 				838715E8190307BE007C2313 /* GSGaussiStoreSubBar.m in Sources */,
 				8381CF68190F43A70025BEE2 /* GSScrollWindow.m in Sources */,
+				831B91F6191595D200FCBA10 /* GSTransitionViewController.m in Sources */,
+				831B91F01915871100FCBA10 /* GSScrollIntro.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
