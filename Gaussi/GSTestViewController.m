@@ -11,6 +11,7 @@
 #import "GSGaussiStoreSubBar.h"
 #import "GSGaussiStoreLeftBar.h"
 #import "GSGaussiStoreCell.h"
+#import "GSTitleBar.h"
 
 @interface GSTestViewController ()
 
@@ -30,9 +31,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [UIApplication sharedApplication].statusBarHidden = YES;
     UIImageView *bg = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 1024, 768)];
     bg.image = [UIImage imageNamed:@"HPBackGroundImageBlured.png"];
     [self.view addSubview:bg];
+    
+    GSTitleBar* titleBar = [[GSTitleBar alloc] initWithFrame:CGRectMake(1, 2, 2, 2)];
+    [self.view addSubview:titleBar];
     
     GSGaussiStoreBar* bar = [[GSGaussiStoreBar alloc] initWithFrame:CGRectMake(0, 49, 10, 20)];
     [self.view addSubview:bar];

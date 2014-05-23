@@ -80,6 +80,7 @@
 		83365CA21912B2DD007A31DF /* GSInfoBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83365CA11912B2DD007A31DF /* GSInfoBoxView.m */; };
 		83365CA41912DA8F007A31DF /* SampleProfilePic.png in Resources */ = {isa = PBXBuildFile; fileRef = 83365CA31912DA8F007A31DF /* SampleProfilePic.png */; };
 		83365CA61912DC80007A31DF /* SampleInfoBoxBackgroundImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 83365CA51912DC80007A31DF /* SampleInfoBoxBackgroundImage.png */; };
+		833A187D192FAD2900335AB3 /* GSTitleBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 833A187C192FAD2900335AB3 /* GSTitleBar.m */; };
 		835E7E7D1911E3B200B3FC2B /* GSOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 835E7E7C1911E3B200B3FC2B /* GSOptionsViewController.m */; };
 		835E7E7F19120B6B00B3FC2B /* SampleCover.png in Resources */ = {isa = PBXBuildFile; fileRef = 835E7E7E19120B6B00B3FC2B /* SampleCover.png */; };
 		835E7E8119120C3E00B3FC2B /* continue.png in Resources */ = {isa = PBXBuildFile; fileRef = 835E7E8019120C3E00B3FC2B /* continue.png */; };
@@ -202,6 +203,8 @@
 		83365CA11912B2DD007A31DF /* GSInfoBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSInfoBoxView.m; sourceTree = "<group>"; };
 		83365CA31912DA8F007A31DF /* SampleProfilePic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SampleProfilePic.png; sourceTree = "<group>"; };
 		83365CA51912DC80007A31DF /* SampleInfoBoxBackgroundImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SampleInfoBoxBackgroundImage.png; sourceTree = "<group>"; };
+		833A187B192FAD2900335AB3 /* GSTitleBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSTitleBar.h; sourceTree = "<group>"; };
+		833A187C192FAD2900335AB3 /* GSTitleBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSTitleBar.m; sourceTree = "<group>"; };
 		835E7E7B1911E3B200B3FC2B /* GSOptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSOptionsViewController.h; sourceTree = "<group>"; };
 		835E7E7C1911E3B200B3FC2B /* GSOptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSOptionsViewController.m; sourceTree = "<group>"; };
 		835E7E7E19120B6B00B3FC2B /* SampleCover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SampleCover.png; sourceTree = "<group>"; };
@@ -363,7 +366,6 @@
 			isa = PBXGroup;
 			children = (
 				831F09121900B359006E15C9 /* GSSplashView.h */,
-				831F09131900B359006E15C9 /* GSSplashView.m */,
 				831F09151900B3A5006E15C9 /* GSReaderView.h */,
 				831F09161900B3A5006E15C9 /* GSReaderView.m */,
 				831F09181900B45D006E15C9 /* GSHomePageView.h */,
@@ -502,6 +504,7 @@
 		8381CF65190F43780025BEE2 /* HomePage */ = {
 			isa = PBXGroup;
 			children = (
+				831F09131900B359006E15C9 /* GSSplashView.m */,
 				8381CF66190F43A70025BEE2 /* GSScrollWindow.h */,
 				8381CF67190F43A70025BEE2 /* GSScrollWindow.m */,
 				8381CF69190F43BB0025BEE2 /* GSScrollSingleWindow.h */,
@@ -545,6 +548,8 @@
 		838DBFF4191E86F500E4BC5B /* TitleBar */ = {
 			isa = PBXGroup;
 			children = (
+				833A187B192FAD2900335AB3 /* GSTitleBar.h */,
+				833A187C192FAD2900335AB3 /* GSTitleBar.m */,
 			);
 			name = TitleBar;
 			sourceTree = "<group>";
@@ -738,6 +743,7 @@
 				83CF356E190C0B6300FAE1C4 /* GSGaussiStoreCell.m in Sources */,
 				831F08C11900A432006E15C9 /* main.m in Sources */,
 				83365CA21912B2DD007A31DF /* GSInfoBoxView.m in Sources */,
+				833A187D192FAD2900335AB3 /* GSTitleBar.m in Sources */,
 				831B91F31915873000FCBA10 /* GSScrollSingleIntro.m in Sources */,
 				838715E41902D36B007C2313 /* GSGaussiStoreBarButton.m in Sources */,
 				838715E8190307BE007C2313 /* GSGaussiStoreSubBar.m in Sources */,

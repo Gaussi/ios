@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GSLogicTestViewController : UIViewController
+@interface GSLogicTestViewController : UIViewController <UITextFieldDelegate,UITableViewDataSource, UITableViewDelegate>
 
 @end
